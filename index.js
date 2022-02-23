@@ -101,7 +101,7 @@ try {
 				}
 				//*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 
-				//Check & and set
+				//Check & set
 				const result = await getAllLinks();
 				if (compare.length === 0) {
 					console.log("write");
