@@ -63,8 +63,6 @@ try {
 				};
 				/*-*-*-*-*Get links on apart-*-*/
 				async function getAllLinks() {
-					// Привести все к одному типу
-					//  Сортируй по дате
 					let result = [];
 					for (let i = 0; i <= (await amountPages()); i++) {
 						const paginationPage = await browser.newPage();
